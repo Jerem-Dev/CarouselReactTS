@@ -1,0 +1,40 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+}
+
+.img-container img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.dot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 5px;
+}
+
+.dot {
+  border: 2px white solid;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.selected {
+  background-color: white;
+}
