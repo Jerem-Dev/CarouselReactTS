@@ -29,6 +29,7 @@
 }
 
 .dot {
+  cursor: pointer;
   border: 2px white solid;
   width: 10px;
   height: 10px;

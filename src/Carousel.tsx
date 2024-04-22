@@ -39,6 +39,10 @@ export default function Carousel() {
     index === 0 ? setIndex(2) : setIndex(index - 1);
   }
 
+  function handleDotClick(index: number) {
+    setIndex(index);
+  }
+
   return (
     <>
       <div className="main-container">
@@ -47,7 +51,11 @@ export default function Carousel() {
         </div>
         <div className="dot-container">
           {slides.map((slide, i) => (
-            <div key={i} className="dot"></div>
+            <div
+              key={i}
+              className="dot"
+              onClick={() => handleDotClick(i)}
+            ></div>
           ))}
         </div>
         <div className="button-container">
