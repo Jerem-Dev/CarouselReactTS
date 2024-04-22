@@ -5,7 +5,7 @@ export default function Root() {
     <>
       <header>
         <nav>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/home">Home</NavLink>
           <NavLink to="/carousel">Carousel</NavLink>
         </nav>
       </header>

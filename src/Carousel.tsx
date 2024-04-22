@@ -46,6 +46,7 @@ export default function Carousel() {
   return (
     <>
       <div className="main-container">
+        <h2>Carousel 1</h2>
         <div className="img-container">
           <img src={`/img/dog${index}.jpg`} alt="" />
         </div>

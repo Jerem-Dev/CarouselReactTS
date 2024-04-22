@@ -33,3 +33,11 @@ a:hover {
   color: red;
   font-size: 2rem;
 }
+
+.container-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
